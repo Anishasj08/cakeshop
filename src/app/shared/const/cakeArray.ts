@@ -1,33 +1,7 @@
-import { Component } from '@angular/core';
-import { Icakeshop } from './shared/model/Interface';
+import { Icakeshop } from "../model/Interface";
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
-})
-export class AppComponent {
-  title = 'cakeshop';
-  searchbyname!:string
-  public CakesArray: Array<Icakeshop> = [
-    {
-        img: "https://aksh31.github.io/TUC-Rose-and-Cake/assets/images/cake-1.jpg",
-        name: "Designer cake with Biscuit and Cones",
-        prize: "Rs.1500/-",
-        weight: "2 Kg",
-    },
-    {
-        img: "https://aksh31.github.io/TUC-Rose-and-Cake/assets/images/white-1.jpg",
-        name: "White Forest with blackberry loaded ",
-        prize: "Rs.1250/-",
-        weight: "2 Kg",
-    },
-    {
-        img: "https://aksh31.github.io/TUC-Rose-and-Cake/assets/images/fruitcake-2.jpg",
-        name: "Strawberry Tripple layerd delight Cake",
-        prize: "Rs.2100/-",
-        weight: "3 Kg",
-    },
+export const cakeArray: Array<Icakeshop> = [
+   
     {
         img: "https://aksh31.github.io/TUC-Rose-and-Cake/assets/images/fruitcake-5.jpg",
         name: "Fruits Delight over loaded Cake",
@@ -64,6 +38,24 @@ export class AppComponent {
         name: "Chocolate Delight Cake",
         prize: "Rs.800/-",
         weight: "1.5 Kg",
+    },
+    {
+        img: "https://aksh31.github.io/TUC-Rose-and-Cake/assets/images/cake-1.jpg",
+        name: "Designer cake with Biscuit and Cones",
+        prize: "Rs.1500/-",
+        weight: "2 Kg",
+    },
+    {
+        img: "https://aksh31.github.io/TUC-Rose-and-Cake/assets/images/white-1.jpg",
+        name: "White Forest with blackberry loaded cake",
+        prize: "Rs.1250/-",
+        weight: "2 Kg",
+    },
+    {
+        img: "https://aksh31.github.io/TUC-Rose-and-Cake/assets/images/fruitcake-2.jpg",
+        name: "Strawberry Tripple layerd delight Cake",
+        prize: "Rs.2100/-",
+        weight: "3 Kg",
     },
     {
         img: "https://aksh31.github.io/TUC-Rose-and-Cake/assets/images/choco-2.jpg",
@@ -309,4 +301,3 @@ export class AppComponent {
     },
 
 ];
-}

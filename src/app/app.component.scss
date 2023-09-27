@@ -1,0 +1,65 @@
+.icon{
+    color:#8b008b;
+}
+.navbar{
+    background-color:lavenderblush;
+    //border: 4px solid darkmagenta;
+}
+
+.all{
+    background-image:url("https://wallpapershome.com/images/pages/pic_h/17068.jpg");
+    // background-position:fixed;
+    height:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    // background-position: center;
+    font-family:'Caveat', cursive!important;
+}
+// :
+.card{
+    background-color:(rgba(255,182,193,0.7));
+    height:400px
+}
+img {
+    max-width: 100%;
+    height:85%;
+  }
+
+i{
+    font-size: 45px;
+}
+
+
+li a{
+    font-size:25px;
+    color:darkmagenta!important;
+    font-weight:700;
+    margin-left:90px;
+    font-family:'Caveat', cursive!important;
+}
+
+form{
+    width: 100%;
+    input{
+        width:80%;
+        margin-left:90px;
+        border-radius:10px;
+        border: 2px solid darkmagenta;
+
+        &:focus{
+            border: 4px solid blueviolet;
+        }
+    }
+}
+
+.btn{
+    background-color:darkmagenta ;
+    color:white;
+}
+
+.card:hover{
+    background-color:rgb(232, 128, 180);
+    
+    
+}
